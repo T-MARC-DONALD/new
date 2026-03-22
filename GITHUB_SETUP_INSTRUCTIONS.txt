@@ -1,0 +1,125 @@
+==============================================================================
+GITHUB SETUP INSTRUCTIONS FOR github-final-project
+==============================================================================
+
+All files for your project are ready in: C:\github-final-project\
+
+FILES CREATED:
+✓ README.md
+✓ LICENSE (Apache 2.0)
+✓ CODE_OF_CONDUCT.md (Contributor Covenant)
+✓ CONTRIBUTING.md
+✓ simple-interest.sh
+
+==============================================================================
+STEP 1: CREATE GITHUB REPOSITORY
+==============================================================================
+
+1. Go to https://github.com/new
+2. Enter Repository name: github-final-project
+3. Set visibility to PUBLIC
+4. Check "Add a README file" checkbox
+5. Under "Add a license", select "Apache License 2.0" from dropdown
+6. Click "Create repository"
+
+==============================================================================
+STEP 2: CLONE THE REPOSITORY LOCALLY
+==============================================================================
+
+After creating the repository, GitHub will show you the clone URL.
+Open PowerShell and run:
+
+    cd C:\
+    git clone https://github.com/<YOUR_USERNAME>/github-final-project.git
+    cd github-final-project
+
+==============================================================================
+STEP 3: UPDATE FILES IN YOUR CLONED REPOSITORY
+==============================================================================
+
+Copy all files from C:\github-final-project\ to your cloned repository folder.
+
+Specifically:
+- Replace the existing README.md with the new content
+- Keep the LICENSE file (already has Apache 2.0, but verify)
+- Copy CODE_OF_CONDUCT.md
+- Copy CONTRIBUTING.md
+- Copy simple-interest.sh
+
+Or use these PowerShell commands:
+
+    Copy-Item "C:\github-final-project\README.md" -Destination "C:\github-final-project\README.md" -Force
+    Copy-Item "C:\github-final-project\CODE_OF_CONDUCT.md" -Destination "C:\github-final-project\CODE_OF_CONDUCT.md"
+    Copy-Item "C:\github-final-project\CONTRIBUTING.md" -Destination "C:\github-final-project\CONTRIBUTING.md"
+    Copy-Item "C:\github-final-project\simple-interest.sh" -Destination "C:\github-final-project\simple-interest.sh"
+
+==============================================================================
+STEP 4: COMMIT AND PUSH TO GITHUB
+==============================================================================
+
+In your cloned repository directory, run:
+
+    git add .
+    git commit -m "Initial commit: Add project files"
+    git push origin main
+
+==============================================================================
+STEP 5: VERIFY FILES ON GITHUB
+==============================================================================
+
+Go to https://github.com/<YOUR_USERNAME>/github-final-project
+
+Verify that the following files are visible:
+✓ README.md
+✓ LICENSE
+✓ CODE_OF_CONDUCT.md
+✓ CONTRIBUTING.md
+✓ simple-interest.sh
+
+==============================================================================
+STEP 6: COLLECT SUBMISSION URLs
+==============================================================================
+
+After pushing to GitHub, collect these URLs in a text file for submission:
+
+TASK 1 & 2: README and LICENSE URLs
+- README.md URL: https://github.com/<YOUR_USERNAME>/github-final-project/blob/main/README.md
+- LICENSE URL: https://github.com/<YOUR_USERNAME>/github-final-project/blob/main/LICENSE
+
+TASK 3: CODE OF CONDUCT URL
+- CODE_OF_CONDUCT.md URL: https://github.com/<YOUR_USERNAME>/github-final-project/blob/main/CODE_OF_CONDUCT.md
+
+TASK 4: CONTRIBUTING GUIDELINES URL
+- CONTRIBUTING.md URL: https://github.com/<YOUR_USERNAME>/github-final-project/blob/main/CONTRIBUTING.md
+
+TASK 5: INTEREST CALCULATOR SCRIPT URL
+- simple-interest.sh URL: https://github.com/<YOUR_USERNAME>/github-final-project/blob/main/simple-interest.sh
+
+REPOSITORY URL (needed for both options):
+- Repository URL: https://github.com/<YOUR_USERNAME>/github-final-project
+
+==============================================================================
+QUICK REFERENCE CHECKLIST
+==============================================================================
+
+☐ Create GitHub repository (github-final-project)
+☐ Repository is PUBLIC
+☐ Apache License 2.0 selected
+☐ Clone repository locally
+☐ Copy all project files to cloned repo
+☐ Git add, commit, and push to GitHub
+☐ Verify all files appear on GitHub
+☐ Save all URLs to submission text file
+☐ Replace <YOUR_USERNAME> with your actual GitHub username in all URLs
+
+==============================================================================
+NOTES
+==============================================================================
+
+- The LICENSE file in the cloned repository should already contain Apache 2.0
+  text when you select it during repository creation
+- All files have been prepared with the exact content specified
+- When pushing, use the main branch (default)
+- Make sure to replace <YOUR_USERNAME> with your actual GitHub username
+
+==============================================================================
