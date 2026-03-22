@@ -1,0 +1,8 @@
+$ git checkout main
+Switched to branch 'main'
+
+$ git merge bug-fix-typo
+Updating 14c0322..4c28a10
+Fast-forward
+ README.md | Bin 1077 -> 1121 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)

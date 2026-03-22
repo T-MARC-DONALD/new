@@ -1,0 +1,24 @@
+$ curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/T-MARC-DONALD/new
+{
+  "id": 123456789,
+  "name": "new",
+  "full_name": "T-MARC-DONALD/new",
+  "private": false,
+  "owner": {
+    "login": "T-MARC-DONALD",
+    "id": 987654321
+  },
+  "html_url": "https://github.com/T-MARC-DONALD/new",
+  "description": "Simple interest calculator project",
+  "fork": true,
+  "source": {
+    "id": 987654321,
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+    "owner": {
+      "login": "ibm-developer-skills-network",
+      "id": 123456789
+    }
+  }
+}
